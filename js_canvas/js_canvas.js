@@ -1,1 +1,1 @@
-alert("Works");
+alert("Works with git");
