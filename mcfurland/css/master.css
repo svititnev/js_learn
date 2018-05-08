@@ -1,0 +1,22 @@
+h1 {
+  color: rgb(30, 24, 157);
+  background-color: rgb(240, 135, 196);
+}
+
+article {
+  border: 1px solid rgb(210, 41, 212);
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(226, 163, 249);
+}
+
+.row-even {
+  background-color: rgb(208, 180, 185);
+  color: rgb(8, 31, 2);
+}
+
+.row-odd {
+  background-color: rgb(186, 224, 56);
+  color: rgb(34, 6, 21);
+}
