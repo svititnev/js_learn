@@ -1,0 +1,13 @@
+/* useful-links */
+div.useful-link {
+  border: 1px solid green;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: rgb(169, 250, 177);
+}
+
+div.useful-link:hover {
+  background-color: rgb(247, 255, 186);
+  transition-duration: 1s;
+}
+/* /useful-links */
