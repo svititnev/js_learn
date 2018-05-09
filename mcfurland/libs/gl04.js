@@ -3,6 +3,6 @@ $(document).ready(function() {
   $pqs.each(function() {
     let $pq = $(this).clone();
     $pq.toggleClass('pq pullquote');
-    $(this).after($pq);    
+    $(this).after($pq);
   })
 });
