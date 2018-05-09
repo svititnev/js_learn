@@ -4,6 +4,20 @@ $(document).ready(function() {
 
   let $main = $('main');
 
+  let $submenu = $('<div></div>');
+  $submenu.css({
+    'width':'100px',
+    'background-color': '#9140a1',
+    'position':'absolute'
+  });
+  for (var i = 0; i < 5; i++) {
+    let $link = $('<a href="#">Link '+i+'</a>');
+    $submenu.append($link);
+    $submenu.append('<br>');
+  }
+  $main.append($submenu);
+  $submenu.hide();
+
   for (var i = 0; i < colors.length; i++) {
     let $div = $('<div></div>');
     $div.attr('data-color', colors[i]);
@@ -19,8 +33,22 @@ $(document).ready(function() {
 
   $('div.colorer').each(function() {
     $(this).click(function() {
-      $('body').css('background-color', $(this).data('color'));      
+      $('body').css('background-color', $(this).data('color'));
+    });
+    $(this).hover(function(event) {
+      // alert(event.target);
+      $submenu.css('left', ''+event.target.offsetLeft+'px');
+      $submenu.css('top', '213px');
+      $submenu.show(2000);
+    }, function() {
+      $submenu.hide();
     });
   })
+
+  $submenu.hover(function() {
+    $submenu.show();
+  }, function() {
+    $submenu.hide();
+  });
 
 });
