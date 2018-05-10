@@ -39,7 +39,7 @@ $(document).ready(function() {
       // alert(event.target);
       $submenu.css('left', ''+event.target.offsetLeft+'px');
       $submenu.css('top', '213px');
-      $submenu.show(2000);
+      $submenu.slideDown(500);
     }, function() {
       $submenu.hide();
     });
@@ -50,5 +50,28 @@ $(document).ready(function() {
   }, function() {
     $submenu.hide();
   });
+
+  // faq
+  //$('.answer').css('height', 'auto');
+  $('.question').each(function() {
+    $(this).click(function() {
+      $('.answer').hide();
+      let $answer = $(this).next('.answer');
+      // $answer.hide();
+      $answer.css('visibility', 'visible');
+      $answer.css('height', 'auto');
+      $answer.fadeIn('slow');
+    });
+  });
+
+  $(".googlink").click(function(evt) {
+    evt.preventDefault();
+    // $('.google-form').slideToggle();
+    $('.google-form').animate({
+      transform: 'rotate(20deg)'
+    }, 1000
+  );
+  });
+
 
 });

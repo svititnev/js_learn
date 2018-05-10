@@ -40,3 +40,26 @@ article {
   padding: 2px;
 
 }
+
+.question {
+  border: 1px solid #f2ff8c;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.answer {
+  visibility: hidden;
+  height: 0;
+  background-color: rgb(221, 255, 110);
+}
+
+.google-form {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 22%;
+  background-color: #59a790;
+  position: absolute;
+  left: 39%;
+}
