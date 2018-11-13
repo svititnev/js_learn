@@ -1,0 +1,82 @@
+data =
+[
+  {
+    "status":"Pool",
+    "myclass":"pool",
+    "tasks":[
+      {"name":"Taskname 1", "number":"28"},
+      {"name":"Taskname 2", "number":"29"},
+      {"name":"Taskname 3", "number":"30"},
+    ]
+  },
+
+  {
+    "status":"In Work",
+    "myclass":"work",
+    "tasks":[
+      {"name":"Taskname 4", "number":"28"},
+      {"name":"Taskname 5", "number":"29"},
+      {"name":"Taskname 6", "number":"30"},
+      {"name":"Taskname 6", "number":"30"},
+      {"name":"Taskname 6", "number":"30"},
+      {"name":"Taskname 6", "number":"30"},
+    ]
+  },
+
+  {
+    "status":"In process",
+    "myclass":"work",
+    "tasks":[
+      {"name":"Taskname 4", "number":"28"},
+      {"name":"Taskname 5", "number":"29"},
+      {"name":"Taskname 6", "number":"30"},
+      {"name":"Taskname 6", "number":"30"},
+      {"name":"Taskname 6", "number":"30"},
+      {"name":"Taskname 6", "number":"30"},
+    ]
+  },
+
+  {
+    "status":"Ready",
+    "myclass":"ready",
+    "tasks":[
+    ]
+  },
+
+  {
+    "status":"Ready",
+    "myclass":"ready",
+    "tasks":[
+    ]
+  },
+  {
+    "status":"Ready",
+    "myclass":"ready",
+    "tasks":[
+    ]
+  },
+  {
+    "status":"Ready",
+    "myclass":"ready",
+    "tasks":[
+    ]
+  },
+  {
+    "status":"Ready",
+    "myclass":"ready",
+    "tasks":[
+    ]
+  },
+  {
+    "status":"Ready",
+    "myclass":"ready",
+    "tasks":[
+    ]
+  },
+  {
+    "status":"Ready",
+    "myclass":"ready",
+    "tasks":[
+    ]
+  },
+];
