@@ -43,40 +43,4 @@ data =
     ]
   },
 
-  {
-    "status":"Ready",
-    "myclass":"ready",
-    "tasks":[
-    ]
-  },
-  {
-    "status":"Ready",
-    "myclass":"ready",
-    "tasks":[
-    ]
-  },
-  {
-    "status":"Ready",
-    "myclass":"ready",
-    "tasks":[
-    ]
-  },
-  {
-    "status":"Ready",
-    "myclass":"ready",
-    "tasks":[
-    ]
-  },
-  {
-    "status":"Ready",
-    "myclass":"ready",
-    "tasks":[
-    ]
-  },
-  {
-    "status":"Ready",
-    "myclass":"ready",
-    "tasks":[
-    ]
-  },
 ];
